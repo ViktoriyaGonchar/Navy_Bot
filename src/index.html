@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaviBot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Стартовый экран -->
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-content">
+            <div class="robot-emoji">🤖</div>
+            <h1 class="welcome-message">Добро пожаловать!</h1>
+            <button id="start-button" class="start-button">Начать</button>
+        </div>
+    </div>
+
+    <!-- Основной экран с веб-обёрткой -->
+    <div id="main-screen" class="main-screen hidden">
+        <div class="browser-container">
+            <iframe id="webview" src="" frameborder="0"></iframe>
+        </div>
+        <div class="controls">
+            <button id="exit-button" class="exit-button">Выход</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
