@@ -91,3 +91,4 @@ NaviBot/
 
 MIT
 
+Made by Viktoriya Gonchar
